@@ -1,0 +1,107 @@
+@import url(./reset.css);
+
+:root {
+  --app-dark-bg: #1a1d28;
+  --app-green: #33ab4e;
+  --app-purple: #833cff;
+  --app-blue: #3c57ff;
+  --app-blue-hover: #364ee6;
+  --app-orange: #ff8001;
+  --app-orange-hover: #ff2846;
+  --app-grey: #bebebe;
+  --app-white: #f1f1f1;
+}
+
+/* CONTAINER */
+
+.container {
+  width: min(100% - 30px, 1200px);
+  margin-inline: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header start here */
+
+
+/* Header*/
+
+header {
+    background-color: #16232d;
+    height: 60px;
+  }
+  
+  header .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h1{
+    color: var(--app-white);
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    font-size: 0;
+    padding: 0;
+    margin-left: 60px;
+    margin-right: 10px;
+    line-height: 60px;
+  }
+  
+  nav ul li {
+    align-content: flex-end;
+    display: flex;
+    display: inline;
+    line-height: 52px;
+  }
+  
+  nav ul li a {
+    color: var(--app-grey);
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.2px;
+    line-height: 60px;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a::after {
+    color: #4c66c4d2;
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+    background: var(--app-blue-hover);
+    transition: width 0.3s;
+  }
+  
+  nav ul li a:hover::after {
+    width: 50%;
+  }
+  nav ul li + li {
+    margin-left: 20px;
+  }
+  
+  .icon-list {
+    display: none;
+  }
+  
+  .orange {
+    color: var(--app-green);
+  }
+  .img {
+    height: 60px;
+    width: 70px;
+    background-size: cover;
+  } 
