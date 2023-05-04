@@ -101,7 +101,55 @@ header {
     color: var(--app-green);
   }
   .img {
-    height: 60px;
-    width: 70px;
+    height: 40px;
+    width: 40px;
     background-size: cover;
+    margin: 10px;
   } 
+
+  body {
+    background-color: var(--app-dark-bg);
+  }
+
+  /* Main Start here */
+
+  .upper {
+    margin-top: 50px ;
+    display: flex;
+    justify-content: center;
+  }
+
+  .movieSearch {
+    width: 600px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--app-white);
+  }
+
+  .citySearch {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--app-white);
+  }
+
+  ::placeholder {
+    color: var(--app-grey);
+  }
+
+  .search{
+    width: 130px;
+  font-size: 30px;
+  padding: 3px;
+  color: var(--app-green);
+  background-color: var(--app-white);
+  border-radius: 20px;
+  }
+
+  input + input {
+    margin-left: 10px;
+  }
