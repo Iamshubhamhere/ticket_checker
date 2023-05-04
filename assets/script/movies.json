@@ -1,0 +1,61 @@
+{
+    "results": [
+      {
+        "name": "Jurassic Park",
+        "id": 1,
+        "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/jurassic-park.jpg"
+      },
+      {
+        "name": "Eternals",
+        "id": 2,
+        "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/eternals.jpg"
+      },
+      {
+        "name": "The Matrix",
+        "id": 3,
+        "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-matrix.jpg"
+      },
+      {
+        "name": "F9: The Fast Saga",
+        "id": 4,
+        "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/fast-9.jpg"
+      },
+ 
+     
+      {
+        "name": "The Batman",
+        "id": 5,
+        "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-batman.jpg"
+      },
+    
+      {
+        "name": "Spider-Man: No Way Home",
+        "id": 6,
+        "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/no-way-home.jpg"
+      },
+      {
+        "name": "Terminator 2: Judgment Day",
+        "id": 7,
+        "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/terminator-2.jpg"
+      },
+      {
+        "name": "The Exorcist",
+        "id": 8,
+        "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-exorcist.jpg"
+      },
+  
+   
+      {
+        "name": "Shang-Chi and the Legend of the Ten Rings",
+        "id": 9,
+        "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/shang-chi.jpg"
+      },
+  
+      {
+        "name": "Venom: Let There Be Carnage",
+        "id": 10,
+        "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/venom-2.jpg"
+      }
+    ]
+
+  }
