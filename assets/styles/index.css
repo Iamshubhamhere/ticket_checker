@@ -120,21 +120,23 @@ header {
   }
 
   .movieSearch {
-    width: 600px;
+    width: 700px;
     height: 40px;
     padding: 5px 10px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--app-white);
+    box-shadow: 1px 1px 3px var(--app-grey), -1px -1px 3px black;
   }
 
   .citySearch {
-    width: 250px;
+    width: 350px;
     height: 40px;
     border-radius: 5px;
     padding: 5px 10px;
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--app-white);
+    box-shadow: 1px 1px 3px var(--app-grey), -1px -1px 3px black;
   }
 
   ::placeholder {
@@ -142,14 +144,27 @@ header {
   }
 
   .search{
-    width: 130px;
-  font-size: 30px;
+  width: 120px;
+  font-size: 25px;
   padding: 3px;
   color: var(--app-green);
   background-color: var(--app-white);
   border-radius: 20px;
+  font-weight: 400;
   }
 
   input + input {
     margin-left: 10px;
+  }
+
+  /* For the lower section */
+
+.lower{
+  margin-top: 35px ;
+}
+
+h2{
+    color: var(--app-white);
+    font-weight: 400;
+        
   }
