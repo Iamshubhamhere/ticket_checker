@@ -100,7 +100,7 @@ header {
   .orange {
     color: var(--app-green);
   }
-  .img {
+  .flex .img {
     height: 40px;
     width: 40px;
     background-size: cover;
@@ -145,12 +145,12 @@ header {
 
   .search{
   width: 120px;
-  font-size: 25px;
+  font-size: 20px;
   padding: 3px;
   color: var(--app-green);
   background-color: var(--app-white);
   border-radius: 20px;
-  font-weight: 400;
+  font-weight: 600;
   }
 
   input + input {
@@ -165,6 +165,52 @@ header {
 
 h2{
     color: var(--app-white);
-    font-weight: 400;
+    font-weight: 700;
         
+  }
+
+ h3 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 5px;
+    
+  }
+  
+  .img {
+    height: 300px;
+    width: 200px;
+    cursor: pointer;
+  }
+
+  .img:hover {
+    animation: pop 0.5s linear 1;
+  }
+  
+  @keyframes pop {
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  h3 {
+    width: 200px;
+    overflow: hidden;
+  }
+  
+  .box {
+    display: inline-table;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+  }
+
+  .grid-container{
+    display: grid;
+    gap: 10px;
+  }
+
+  .grid-item{
+    align-items: center;
+    height:200px;
+    
   }
