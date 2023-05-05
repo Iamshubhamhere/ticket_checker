@@ -1,60 +1,94 @@
 {
-    "movies": [
+  "movies": [
       {
-        "name": "Jurassic Park",
-        "id": 1,
-        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/jurassic-park.jpg"
+          "name":"Jurassic Park","year":1993,"runningTime":"2h 7m","genre":["Adventure","Action","Sci-Fi"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/jurassic-park.jpg","slug":"jurassic-park"
       },
       {
-        "name": "Eternals",
-        "id": 2,
-        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/eternals.jpg"
+          "name":"Eternals","year":2021,"runningTime":"2h 37m","genre":["Action","Adventure","Fantasy"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/eternals.jpg","slug":"eternals"
       },
       {
-        "name": "The Matrix",
-        "id": 3,
-        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-matrix.jpg"
+          "name":"The Matrix","year":1999,"runningTime":"2h 16m","genre":["Action","Sci-Fi"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/the-matrix.jpg","slug":"the-matrix"
       },
       {
-        "name": "F9: The Fast Saga",
-        "id": 4,
-        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/fast-9.jpg"
-      },
- 
-     
-      {
-        "name": "The Batman",
-        "id": 5,
-        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-batman.jpg"
-      },
-    
-      {
-        "name": "Spider-Man: No Way Home",
-        "id": 6,
-        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/no-way-home.jpg"
+          "name":"Ocean's Eleven","year":2001,"runningTime":"1h 56m","genre":["Crime","Thriller"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/oceans-eleven.jpg","slug":"oceans-eleven"
       },
       {
-        "name": "Terminator 2: Judgment Day",
-        "id": 7,
-        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/terminator-2.jpg"
+          "name":"F9: The Fast Saga","year":2021,"runningTime":"2h 25m","genre":["Action","Crime","Thriller"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/f9-the-fast-saga.jpg","slug":"f9-the-fast-saga"
       },
       {
-        "name": "The Exorcist",
-        "id": 8,
-        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-exorcist.jpg"
+          "name":"JFK","year":1991,"runningTime":"3h 26m","genre":["Drama","History","Thriller"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/jfk.jpg","slug":"jfk"
       },
-  
       {
-        "name": "Shang-Chi and the Legend of the Ten Rings",
-        "id": 9,
-        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/shang-chi.jpg"
+          "name":"The Lord of the Rings: The Fellowship of the Ring","year":2001,"runningTime":"2h 58m","genre":["Adventure","Drama","Fantasy"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/the-fellowship-of-the-ring.jpg","slug":"the-fellowship-of-the-ring"
       },
-  
       {
-        "name": "Venom: Let There Be Carnage",
-        "id": 10,
-        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/venom-2.jpg"
+          "name":"No Time to Die","year":2021,"runningTime":"2h 43m","genre":["Action","Adventure","Thriller"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/no-time-to-die.jpg","slug":"no-time-to-die"
+      },
+      {
+          "name":"The Godfather","year":1973,"runningTime":"2h 55m","genre":["Crime","Drama"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/the-godfather.jpg","slug":"the-godfather"
+      },
+      {
+          "name":"Rocky","year":1976,"runningTime":"2h","genre":["Drama","Sport"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/rocky.jpg","slug":"rocky"
+      },
+      {
+          "name":"Spider-Man: No Way Home","year":2021,"runningTime":"2h 30m","genre":["Action","Adventure","Fantasy"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/spider-man-no-way-home.jpg","slug":"spider-man-no-way-home"
+      },
+      {
+          "name":"Terminator 2: Judgment Day","year":1991,"runningTime":"2h 17m","genre":["Action","Sci-Fi"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/terminator-2-judgment-day.jpg","slug":"terminator-2-judgment-day"
+      },
+      {
+          "name":"The Exorcist","year":1973,"runningTime":"2h 20m","genre":["Horror"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/the-exorcist.jpg","slug":"the-exorcist"
+      },
+      {
+          "name":"West Side Story","year":2021,"runningTime":"2h 36m","genre":["Musical","Drama"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/west-side-story.jpg","slug":"west-side-story"
+      },
+      {
+          "name":"My Cousin Vinny","year":1992,"runningTime":"2h","genre":["Comedy","Crime"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/my-cousin-vinny.jpg","slug":"my-cousin-vinny"
+      },
+      {
+          "name":"The Lion King","year":1994,"runningTime":"1h 28m","genre":["Animation","Adventure","Drama"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/the-lion-king.jpg","slug":"the-lion-king"
+      },
+      {
+          "name":"Gone in 60 Seconds","year":2000,"runningTime":"1h 58m","genre":["Action","Crime","Thriller"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/gone-in-60-seconds.jpg","slug":"gone-in-60-seconds"
+      },
+      {
+          "name":"Titanic","year":1999,"runningTime":"3h 14m","genre":["Drama","Romance"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/titanic.jpg","slug":"titanic"
+      },
+      {
+          "name":"Avengers: Infinity War","year":2018,"runningTime":"2h 29m","genre":["Action","Adventure","Fantasy"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/avengers-infinity-war.jpg","slug":"avengers-infinity-war"
+      },
+      {
+          "name":"Robocop","year":1987,"runningTime":"1h 42m","genre":["Action","Crime","Sci-Fi"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/robocop.jpg","slug":"robocop"
+      },
+      {
+          "name":"The Grand Budapest Hotel","year":2014,"runningTime":"1h 39m","genre":["Comedy","Adventure","Crime"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/the-grand-budapest-hotel.jpg","slug":"the-grand-budapest-hotel"
+      },
+      {
+          "name":"The Batman","year":2022,"runningTime":"2h 59m","genre":["Action","Crime","Drama"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/the-batman.jpg","slug":"the-batman"
+      },
+      {
+          "name":"The Remains of the Day","year":1993,"runningTime":"2h 14m","genre":["Drama","Romance"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/the-remains-of-the-day.jpg","slug":"the-remains-of-the-day"
+      },
+      {
+          "name":"The Shining","year":1980,"runningTime":"2h 26m","genre":["Drama","Horror"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/the-shining.jpg","slug":"the-shining"
+      },
+      {
+          "name":"Star Wars Episode III: Revenge of the Sith","year":2005,"runningTime":"2h 26m","genre":["Action","Adventure","Fantasy"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/revenge-of-the-sith.jpg","slug":"revenge-of-the-sith"
+      },
+      {
+          "name":"The Flash","year":2023,"runningTime":"2h 30m","genre":["Action","Adventure","Fantasy"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/the-flash.jpg","slug":"the-flash"
+      },
+      {
+          "name":"Back to the Future","year":1985,"runningTime":"1h 56m","genre":["Adventure","Comedy","Sci-Fi"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/back-to-the-future.jpg","slug":"back-to-the-future"
+      },
+      {
+          "name":"The Others","year":2001,"runningTime":"1h 41m","genre":["Horror","Mystery","Thriller"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/the-others.jpg","slug":"the-others"
+      },
+      {
+          "name":"Toy Story 3","year":2010,"runningTime":"1h 43m","genre":["Animation","Adventure","Comedy"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/toy-story-3.jpg","slug":"toy-story-3"
+      },
+      {
+          "name":"The Devil Wears Prada","year":2006,"runningTime":"1h 49m","genre":["Comedy","Drama"],"image":"https://raw.githubusercontent.com/mrspecht/media/main/img/the-devil-wears-prada.jpg","slug":"the-devil-wears-prada"
       }
-    ]
-
-  }
+  ]
+}

@@ -4,8 +4,10 @@ import { select, print } from './utils.js';
 
 
 const display = document.querySelector('.display');
-const url = './assets/script/cities.json';
-const url2 = './assets/script/movies.json';
+const cityUrl = './assets/script/cities.json';
+const movieUrl = './assets/script/movies.json';
+const movieSearch = document.querySelector('.movieSearch');
+const citySearch = document.querySelector('.citySearch');
 
 // fetch function
 const options =  {
@@ -16,7 +18,7 @@ const options =  {
 
 async function getCities() {
     try{
-        const response = await fetch(url, options );
+        const response = await fetch(cityUrl, options );
      if (!response.ok){
      throw new Error(`${response.statusText} (${response.status})`);
     }
@@ -32,14 +34,16 @@ async function getCities() {
 
 async function getMovies() {
     try {
-      const response = await fetch(url2, options); 
+      const response = await fetch(movieUrl, options); 
   
       if (!response.ok) {
         throw new Error(`${response.statusText} (${response.status})`);
       }
   
       const data = await response.json(); 
+    
       showMovies(data.movies);
+      // print(showMovies);
     } catch(error) {
       alert(error.message);
     }
@@ -49,16 +53,16 @@ function showMovies(array) {
     display.innerHTML = '';
   
     if (array.length > 0) {
-      array.forEach(image => {
+      array.forEach(movies => {
         display.innerHTML += `
         <div class="poster">
-          <img class="poster-image" src="${image.image}">
-          <div class="poster-name">${image.name}</div>
+          <img class="poster-image" src="${movies.image}">
+          <div class="poster-name">${movies.name}</div>
         </div>
         `;
       });
     }
   }
-showMovies();
+
 getCities();
 getMovies();

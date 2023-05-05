@@ -127,6 +127,7 @@ header {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--app-white);
     box-shadow: 1px 1px 3px var(--app-grey), -1px -1px 3px black;
+    margin-right: 10px;
   }
 
   .citySearch {
@@ -137,6 +138,7 @@ header {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--app-white);
     box-shadow: 1px 1px 3px var(--app-grey), -1px -1px 3px black;
+    margin-right: 10px;
   }
 
   ::placeholder {
