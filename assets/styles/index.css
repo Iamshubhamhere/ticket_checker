@@ -228,3 +228,34 @@ h2{
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+
+.movieList{
+  background-color: var(--app-white);
+  
+  width: 700px;
+  text-decoration: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.movieList a, .cityList a {
+   line-height: 40px;
+    display: block;
+    padding: 0px 10px;
+    color: var(--app-dark-bg);
+    font-weight: 600;
+}
+
+
+
+.movieList a:hover, .cityList a:hover {
+  background-color: var(--app-green);
+}
+.cityList {
+  background-color: var(--app-white);
+  width: 350px;
+  text-decoration: none;
+  position: absolute;
+  z-index: 1;
+}
